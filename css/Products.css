@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "YekanBakh";
+    src: url("../font/YekanBakh-Bold/YekanBakh-Bold.eot");
+    src: local("YekanBakh"), url("../font/YekanBakh-Bold/YekanBakh-Bold.ttf") format("truetype"),
+        url("../font/YekanBakh-Bold/YekanBakh-Bold.woff") format("woff");
+}
+
+* {
+    font-family: "YekanBakh", sans-serif;
+}
+
+:focus {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0298DD !important;
+    cursor: pointer !important;
+}
+
+a.navbar-brand {
+    width: 120px;
+}
+
+#ProductsLink {
+    color: #0298DD;
+}
+
+a.dropdown-item:hover {
+    background-color: white;
+}
+
+header {
+    background: linear-gradient(90deg, #232B30, #232B30, #026FAF, #0298DD);
+}
+
+section.ftr-cont-u {
+    background: #232B30;
+}
+
+div.about-us p,
+div.connect-us div p {
+    word-spacing: 2px;
+    line-height: 36px;
+}

@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "YekanBakh";
+    src: url("../font/YekanBakh-Bold/YekanBakh-Bold.eot");
+    src: local("YekanBakh"), url("../font/YekanBakh-Bold/YekanBakh-Bold.ttf") format("truetype"),
+        url("../font/YekanBakh-Bold/YekanBakh-Bold.woff") format("woff");
+}
+
+* {
+    font-family: "YekanBakh", sans-serif;
+}
+
+:focus {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0298DD !important;
+    cursor: pointer !important;
+}
+
+a.navbar-brand {
+    width: 120px;
+}
+
+#HomeLink {
+    color: #0298DD;
+}
+
+a.dropdown-item:hover {
+    background-color: white;
+}
+
+div.carousel-item h1 {
+    font-size: 4vw;
+}
+
+div.carousel-item p {
+    font-size: 2vw;
+}
+
+@media (min-width: 1200px) {
+    div.carousel-item h1 {
+        font-size: 48px;
+    }
+
+    div.carousel-item p {
+        font-size: 24px;
+    }
+}
+
+section.products div {
+    height: 225px;
+    background-size: 100% 100%;
+}
+
+@media (min-width: 768px) {
+    section.products div {
+        height: 30vw;
+        background-size: auto;
+    }
+}
+
+div.mechanical {
+    background: url("../img/Mechanical-Engineering-Consulting-firm-3-Feature-1080x675.jpg") no-repeat round;
+    transition: all 1s;
+}
+
+div.electronical {
+    transition: all 1s;
+    background: url("../img/electronics-components-jobs-redline-group-technical-recruitment.jpg") no-repeat round;
+}
+
+div.industry {
+    transition: all 1s;
+    background: url("../img/view-of-factory-against-blue-sky-257700-1280x853.jpg") no-repeat round;
+}
+
+div.mechanical:hover,
+div.electronical:hover,
+div.industry:hover {
+    -webkit-filter: grayscale(75%);
+    filter: grayscale(75%);
+    transform: scale(1.08);
+}
+
+section.ftr-cont-u {
+    background: #232B30;
+}
+
+div.about-us p,
+div.connect-us div p {
+    word-spacing: 2px;
+    line-height: 36px;
+}
